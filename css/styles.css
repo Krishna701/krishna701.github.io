@@ -5,6 +5,7 @@
   font-family: "Ubuntu",sans-serif;
   box-sizing: border-box;
 }
+
 html{
   scroll-behavior: smooth;
 }
@@ -20,7 +21,7 @@ html{
 }
 
 
-.navbar{
+/* .navbar{
   position: fixed;
   background-color: transparent;
   width: 100%;
@@ -28,7 +29,8 @@ html{
   top: 0;
   z-index: 999;
   transition: .3s linear;
-}
+} */
+
 .inner-width{
   max-width: 1300px;
   margin: auto;
@@ -40,9 +42,9 @@ html{
   justify-content: space-between;
 }
 .logo{
-  width: 44px;
-  height: 32px;
-  background-image: url(../images/white-logo.png);
+  width: 100px;
+  height: 75px;
+  background-image: url(../images/crishh.png);
   background-size: contain;
 }
 
@@ -80,7 +82,7 @@ html{
   padding: 18px 0;
 }
 .sticky .logo{
-  background-image: url(../images/black-logo.png);
+  background-image: url(../images/crishh.png);
 }
 .sticky .navbar-menu a{
   color: #111;
@@ -88,6 +90,7 @@ html{
 .sticky .menu-toggler span{
   background-color: #111;
 }
+
 #home{
   height: 100vh;
   min-height: 500px;
@@ -115,17 +118,7 @@ html{
   content: "Krishna";
   transition: textanim 5s linear infinite;
 }
-@keyframes textanim {
-  25%{
-    content: "Learner";
-  }
-  50%{
-    content: "Data Scientist";
-  }
-  75%{
-    content: "Very Lazy Developer"
-  }
-}
+
 .se a{
   color: #fff;
   font-size: 22px;
@@ -153,10 +146,8 @@ html{
   color: #fff;
 }
 
-section{
-  padding: 100px 0;
-  background-color: #f1f1f1;
-}
+ 
+
 .section-title{
   text-align: center;
   margin-bottom: 80px;
@@ -191,7 +182,7 @@ section{
 }
 .about-pics{
   width: 200px;
-  border-radius: 50%;
+  border-radius: 70%;
   margin-right: 80px;
 }
 .about-text{
@@ -253,13 +244,13 @@ section{
   width:60%;
 }
 .js:after{
-  width:70%;
+  width:20%;
 }
 .php:after{
-  width:90%;
+  width:00%;
 }
 .mysql:after{
-  width:40%;
+  width:10%;
 }
 .cs:after{
   width:10%;
