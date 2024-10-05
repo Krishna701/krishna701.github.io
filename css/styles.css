@@ -5,6 +5,7 @@
   font-family: "Ubuntu",sans-serif;
   box-sizing: border-box;
 }
+
 html{
   scroll-behavior: smooth;
 }
@@ -20,7 +21,7 @@ html{
 }
 
 
-.navbar{
+/* .navbar{
   position: fixed;
   background-color: transparent;
   width: 100%;
@@ -28,7 +29,8 @@ html{
   top: 0;
   z-index: 999;
   transition: .3s linear;
-}
+} */
+
 .inner-width{
   max-width: 1300px;
   margin: auto;
@@ -40,8 +42,10 @@ html{
   justify-content: space-between;
 }
 .logo{
+
   width: 140px;
   height: 100px;
+
   background-image: url(../images/crishh.png);
   background-size: contain;
 }
@@ -80,7 +84,9 @@ html{
   padding: 18px 0;
 }
 .sticky .logo{
+
   background-image: url(../images/krishna.png);
+
 }
 .sticky .navbar-menu a{
   color: #111;
@@ -88,6 +94,7 @@ html{
 .sticky .menu-toggler span{
   background-color: #111;
 }
+
 #home{
   height: 100vh;
   min-height: 500px;
@@ -115,6 +122,7 @@ html{
   content: "Krishna";
   transition: textanim 5s linear infinite;
 }
+
 @keyframes textanim {
   25%{
     content: "Data Analyst";
@@ -126,6 +134,7 @@ html{
     content: "ETL Developer"
   }
 }
+
 .se a{
   color: #fff;
   font-size: 22px;
@@ -153,10 +162,8 @@ html{
   color: #fff;
 }
 
-section{
-  padding: 100px 0;
-  background-color: #f1f1f1;
-}
+ 
+
 .section-title{
   text-align: center;
   margin-bottom: 80px;
