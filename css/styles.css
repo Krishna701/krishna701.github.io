@@ -40,9 +40,9 @@ html{
   justify-content: space-between;
 }
 .logo{
-  width: 44px;
-  height: 32px;
-  background-image: url(../images/white-logo.png);
+  width: 140px;
+  height: 100px;
+  background-image: url(../images/crishh.png);
   background-size: contain;
 }
 
@@ -80,7 +80,7 @@ html{
   padding: 18px 0;
 }
 .sticky .logo{
-  background-image: url(../images/black-logo.png);
+  background-image: url(../images/krishna.png);
 }
 .sticky .navbar-menu a{
   color: #111;
@@ -105,7 +105,7 @@ html{
 
 #home .content{
   width: 100%;
-  color: #fff;
+  color: #e0c8c8;
 }
 #home .content h1{
   font-size: 60px;
@@ -117,13 +117,13 @@ html{
 }
 @keyframes textanim {
   25%{
-    content: "Learner";
+    content: "Data Analyst";
   }
   50%{
-    content: "Data Scientist";
+    content: "Data Engineer";
   }
   75%{
-    content: "Very Lazy Developer"
+    content: "ETL Developer"
   }
 }
 .se a{
@@ -191,7 +191,7 @@ section{
 }
 .about-pics{
   width: 200px;
-  border-radius: 50%;
+  border-radius: 100%;
   margin-right: 80px;
 }
 .about-text{
@@ -246,23 +246,29 @@ section{
   bottom: 0;
 }
 
-.html:after{
-  width:50%;
+.sql:after{
+  width:90%;
 }
 .css:after{
   width:60%;
 }
 .js:after{
-  width:70%;
-}
-.php:after{
   width:90%;
 }
+.php:after{
+  width:80%;
+}
 .mysql:after{
-  width:40%;
+  width:80%;
 }
 .cs:after{
-  width:10%;
+  width:20%;
+}
+.excel:after{
+  width:80%;
+}
+.da:after{
+  width:90%;
 }
 section.dark{
   background-color: #353b48;
@@ -315,7 +321,7 @@ section.dark .section-title::after{
   flex-wrap: wrap;
 }
 .block{
-  width: calc(50% - 20px);
+  width: calc(60% - 30px);
   background-color: #fff;
   border: 3px solid #ddd;
   margin: 10px 0;
@@ -533,7 +539,7 @@ footer{
     max-width: 800px;
   }
   .about-pics{
-    margin: 0 auto 60px;
+    margin: 0 auto 80px;
   }
   .about-text{
     flex: 100%;
